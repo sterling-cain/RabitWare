@@ -43,8 +43,43 @@
 -->
 <centre><h1>Encoders - For hiding your work</h1></centre>
 <br>
-<p1><a href="index.html">Home</a> / <a href="RATs.html">RATs</a> / 
-  <a href="Trojans.html">Trojans</a> / <a href="Builders.html">Builders
-  </a> / <a href="Encoders.html">Encoders</a></p1>
+
+    <!--Navigation-->
+    <p1><a href="index.html">Home</a> / 
+      <a href="RATs.html">Footprinting and Reconnaissance</a> / 
+      <a href="Trojans.html">Scanning Networks</a> / 
+      <a href="Builders.html">Enumeration</a> / 
+      <a href="Encoders.html">Vulnerability Analysis</a> /
+      <a href="Builders.html">Malware</a> /
+      <a href="Builders.html">Sniffing</a> /
+      <a href="Builders.html">Denail-of-Service</a> / 
+      <a href="Builders.html">Session Hijacking</a> /
+      <a href="Builders.html">Evading IDS, Firewalls and Honeypots</a> /
+      <a href="Builders.html">Hacking Web Servers</a> /
+      <a href="Builders.html">Hacking Web Applications</a> /
+      <a href="Builders.html">SQL Injection</a> /
+      <a href="Builders.html">Hacking Wireless Networks</a> /
+      <a href="Builders.html">Hacking Mobile Platforms</a> /     
+    </p1>
+  <br>
+  <br>
+
+  <!-- Descriptiom -->
+  <body onload="typeWriter()">
+    <p1 id="demo"></p1>
+    <script>
+      var i = 0;
+      var txt = 'Rabitware is a collection of software available for purchase. Our collection includes everything from Botnet Building Tools, to Encoders to help you bypass AV Software.';
+      var speed = 25;
+
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("demo").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+    </script>
+
   </body>
 </html>

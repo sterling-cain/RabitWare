@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- 
-  - add file names
-  - add store front
-  - add files
--->
-
   <head>
+     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <title>Rabitware</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="./img/rabbit.png" type="image/x-icon">
+    <link rel="icon" href="./img/RaBit.png" type="image/x-icon">
+
+    <!--Inline CSS-->
+    <body style="background-color:#1F1F29">
+
   </head>
     
   <body>
-    <style>
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #111;
-      }
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">RaBitWare</a>
         
-      li { float: left; }
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">House button</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.bbcgoodfood.com/recipes">Recipies</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Foods
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Beans</a></li>
+                <li><a class="dropdown-item" href="#">Sausages</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Waffles</a></li>
+              </ul>
+            </li>
 
-      li a:hover { background-color: #222; }
-    </style>
-
-    <centre><h1>Rabitware - software for hackers</h1></centre>
-    <br>
-
-    <!--Navigation-->
-    <p1><a href="index.html">Home</a> / <a href="RATs.html">RATs</a> / 
-      <a href="Trojans.html">Trojans</a> / <a href="Builders.html">Builders
-      </a> / <a href="Encoders.html">Encoders</a>
-    </p1>
+          </ul>
+          
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
     <br>
     <br>
 
@@ -55,7 +62,7 @@
     <p1 id="demo"></p1>
     <script>
       var i = 0;
-      var txt = 'Rabitware is a collection of software available for purchase. Our collection includes everything from Botnet Building Tools, to Encoders to help you bypass AV Software.';
+      var txt = 'At RabitWare we know how hard it is for Hackers to find reliable and legitimate software. So we"ve put together a library of tools and programs in one, easy to access place. Enjoy, and happy hunting.';
       var speed = 25;
 
       function typeWriter() {
@@ -66,5 +73,9 @@
         }
       }
     </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
