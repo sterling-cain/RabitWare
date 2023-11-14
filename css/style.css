@@ -8,3 +8,10 @@ body {
     background-color: #1f1f29;
     color: aliceblue;
 }
+
+footer {
+  color: green;
+    font-family: "Consolas", sans-serif;
+    padding: 20px;
+    align-content: center;
+}
