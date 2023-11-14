@@ -1,0 +1,10 @@
+body {
+    color: #F0F0F5;
+    font-family: "Consolas", sans-serif;
+    padding: 20px;
+  }
+
+  ul.dropdown-menu {
+    background-color: #1f1f29;
+    color: aliceblue;
+}
