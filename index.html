@@ -9,119 +9,44 @@
     <title>Rabitware</title>
     <link rel="icon" href="img/RaBit.png" type="image/x-icon">
 
+    <!-- Logo -->
+    <div style="text-align: center;"> <img src="img/globe.png" alt="Logo" width="50" height="50"> </div>
+    <br>
+
     <!--Inline CSS-->
     <body style="background-color:#1f1f29">
   </head>
     
-  <body>
-    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">RaBitWare</a>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" data-bs-theme="dark">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                System Hacking
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="buffer overflow.html">Buffer Overflow</a></li>
-                <li><a class="dropdown-item" href="covering tracks.html">Covering Tracks</a></li>
-                <li><a class="dropdown-item" href="#">Github</a></li>
-                <li><a class="dropdown-item" href="password cracking.html">Password Cracking</a></li>
-                <li><a class="dropdown-item" href="privilege escalation.html">Privilege Escalation</a></li>
-                <li><a class="dropdown-item" href="spyware.html">Spyware</a></li>
-                <li><a class="dropdown-item" href="tools to extract password hashes.html">Tools to Extract Password Hashes</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Malware
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="crypters.html">Crypters</a></li>
-                <li><a class="dropdown-item" href="malware analysis.html">Malware Analysis</a></li>
-                <li><a class="dropdown-item" href="monitoring.html">Monitoring</a></li>
-                <li><a class="dropdown-item" href="trojan types.html">Trojan Types</a></li>
-                <li><a class="dropdown-item" href="virus makers.html">Virus Makers</a></li>
-                <li><a class="dropdown-item" href="viruses.html">Viruses</a></li>
-                <li><a class="dropdown-item" href="worm maker.html">Worm Maker</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Sniffing
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="arp poisoning.html">ARP Poisoning</a></li>
-                <li><a class="dropdown-item" href="mac spoofing.html">MAC Spoofing</a></li>
-                <li><a class="dropdown-item" href="sniffing.html">Sniffing</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Denial-of-Service
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="dos and ddos attacks.html">DoS and DDoS Attacks</a></li>
-                <li><a class="dropdown-item" href="dos and ddos protection.html">Dos and DDoS Protection</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Evading IDS, Firewalls and Honeypots
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="firewalls.html">Firewalls</a></li>
-                <li><a class="dropdown-item" href="honeypot.html">Honeypots</a></li>
-                <li><a class="dropdown-item" href="http tunneling.html">HHTP Tunneling</a></li>
-              </ul>
-            </li>
-          </ul>
-          
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <br>
 
     <!-- Descriptiom -->
     <body onload="typeWriter()">
-    <p1 id="demo"></p1>
-    <script>
-      var i = 0;
-      var txt = 'At RabitWare we know how hard it is for people to find reliable and legitimate software. So we"ve put together a library of tools and programs in one, easy to access place. Enjoy, and happy hunting.';
-      var speed = 25;
-
-      function typeWriter() {
-        if (i < txt.length) {
-          document.getElementById("demo").innerHTML += txt.charAt(i);
-          i++;
-          setTimeout(typeWriter, speed);
+      <p1 id="demo"></p1>
+      <script>
+        var i = 0;
+        var txt = 'At RabitWare we know how hard it is for Hackers to find reliable and legitimate software. So we"ve put together a library of tools and programs in one, easy to access place. Enjoy, and happy hunting.';
+        var speed = 25;
+  
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
         }
-      }
-    </script>
+      </script>
+
+    <!-- Thumbails -->
+    <div>
+      <div style="text-align: left;"> <img src="img/globe.png" alt="thumbnail" width="100" height="100" hspace="20" vspace="20"> </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
-  <footer>
-    <div style="position: relative;background-color: 1f1f29; width: 600px; height: 800px;">    
 
-      <div style="position: absolute; bottom: 5px; background-color: 1f1f29">
-      Disclamer: Rabitware, and it's associated take no responsibilty for any damage caused by the software we provide access to. All software is provided for educational purposes and nothing else.
-      </div>
-  </div>
+
+  <footer class="footer">
+    <div class ="containter">
+      <span> Disclamer: Rabitware, and it's associated take no responsibilty for any damage caused by the software we provide access to. All software is provided for educational purposes and nothing else. </span>
+    </div>
   </footer>
 </html>
