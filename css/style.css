@@ -1,12 +1,39 @@
 body {
-    color: #F0F0F5;
-    font-family: "Consolas", sans-serif;
-    padding: 20px;
-  }
+  background-color: #212121; 
+  font-family: 'Lucidia Console', monospace; 
+  color: lightblue;
+}
 
-  ul.dropdown-menu {
-    background-color: #1f1f29;
-    color: aliceblue;
+nav {
+  text-align: center;
+  background-color: red;
+}
+nav ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  width: 100%;
 }
 
 .dimmed-background::before {
