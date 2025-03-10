@@ -15,22 +15,22 @@
   <body class="dimmed-background">  
 
     <h5 style="text-align:center; font-size: 50px; margin-bottom: 25px; 
-    color: aliceblue;">C:/RaBitWare/Home/</h5> <!-- Title -->
+    color: aliceblue;">C:/RaBitWare/Commissions/</h5> <!-- Title -->
    
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">Software</a></li>
-        <li><a href="contact.html">Hardware</a></li>
-        <li><a href="comiss.html">Commissions</a></li>
-      </ul>
-    </nav>
-    
+   <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Software</a></li>
+      <li><a href="contact.html">Hardware</a></li>
+      <li><a href="comiss.html">Commissions</a></li>
+    </ul>
+  </nav>
+
     <div> <!-- Desc with Effect -->
       <p id="demo" style="text-align:center; font-size: 20px; padding: 20px;"></p>
       <script>
         var i = 0;
-        var txt = 'Hello World, I\'m RaBit and this is my personal site where I offer my services and products for sale.';
+        var txt = 'Have a specific problem you need help with? Contact me below';
         var speed = 40;
 
         function typeWriter() {
@@ -45,6 +45,24 @@
         window.onload = typeWriter;
       </script>
     </div>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      
 
     <div>
     <h5 style="text-align:center; font-size: smaller; color: grey; padding: 20px;"> 
