@@ -70,3 +70,8 @@ table {
 th, td {
   padding: 5px;
 }
+
+.WIP { /* Work in progress */
+  padding-left: 25px;
+  color: aliceblue;
+}
